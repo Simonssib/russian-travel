@@ -1,0 +1,56 @@
+.place__image {
+    width: 460px;
+    height: 460px;
+    position: relative;
+    object-fit: cover;
+}
+
+
+/*Для экрана 1024px(контрольная точка)*/
+
+@media screen and (max-width: 1024px) {
+    .place__image {
+        width: 440px;
+        height: 440px;
+    }
+}
+
+
+/*Для экранов от 768px(контрольная точка) до 1023px */
+
+@media screen and (max-width: 1023px) {
+    .place__image {
+        width: 340px;
+        height: 340px;
+    }
+}
+
+
+/*Для экранов от 768px(контрольная точка)*/
+
+@media screen and (max-width: 768px) {
+    .place__image {
+        width: 340px;
+        height: 340px;
+    }
+}
+
+
+/*Для экранов от 321px до 767px*/
+
+@media screen and (max-width: 767px) {
+    .place__image {
+        width: 320px;
+        height: 320px;
+    }
+}
+
+
+/*Для экрана 320px(контрольная точка)*/
+
+@media screen and (max-width: 320px) {
+    .place__image {
+        width: 320px;
+        height: 320px;
+    }
+}

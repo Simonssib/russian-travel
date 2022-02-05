@@ -1,0 +1,44 @@
+.place__paragraph {
+    max-width: 484px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29.34px;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+.place__paragraph:nth-of-type(2) {
+    margin-bottom: 0;
+}
+
+
+/*Для экранов от 1024px(контрольная точка) до 1279px*/
+
+@media screen and (max-width: 1079px) {
+    .place__paragraph {
+        max-width: 456px;
+    }
+}
+
+
+/*Для экранов от 768px(контрольная точка) до 1023px*/
+
+@media screen and (max-width: 1023px) {
+    .place__paragraph {
+        max-width: 100%;
+        margin-bottom: 25px;
+        font-size: 16px;
+        line-height: 26.08px;
+    }
+}
+
+
+/*Для экранов от 320px(контрольная точка) до 425px*/
+
+@media screen and (max-width: 425px) {
+    .place__paragraph {
+        margin-left: 16px;
+        margin-right: 16px;
+        line-height: 26.08px;
+    }
+}

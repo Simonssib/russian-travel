@@ -1,0 +1,56 @@
+.place {
+    max-width: 984px;
+    display: grid;
+    grid-template-columns: 460px 1fr;
+    grid-template-rows: auto 1fr;
+    gap: 48px 40px;
+    margin: 80px auto 0 auto;
+}
+
+.place:nth-of-type(1) {
+    margin-top: 0;
+}
+
+
+/*Для экрана 1024px(контрольная точка)*/
+
+@media screen and (max-width: 1024px) {
+    .place {
+        max-width: 928px;
+        grid-template-columns: 440px 1fr;
+        gap: 48px 32px;
+    }
+}
+
+
+/*Для экрана от 768px(контрольная точка) до 1023px*/
+
+@media screen and (max-width: 1023px) {
+    .place {
+        grid-template-columns: 340px 1fr;
+        gap: 48px 28px;
+    }
+}
+
+
+/*Для экранов от 321px до 767px*/
+
+@media screen and (max-width: 767px) {
+    .place {
+        grid-template-columns: 100%;
+        gap: 32px;
+        margin-top: 50px;
+        justify-content: center;
+    }
+}
+
+
+/*Для экрана 320px(контрольная точка)*/
+
+@media screen and (max-width: 320px) {
+    .place {
+        grid-template-columns: 320px;
+        gap: 32px;
+        margin-top: 50px;
+    }
+}

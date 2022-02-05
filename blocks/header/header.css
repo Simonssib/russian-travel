@@ -1,0 +1,30 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 48px 0 48px;
+    padding-top: 28px;
+    min-height: 42px;
+    position: relative;
+}
+
+
+/*Для экранов от 768px(контрольная точка) до 1023px*/
+
+@media screen and (max-width: 1023px) {
+    .header {
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+}
+
+
+/*Для экранов от 320px(контрольная точка) до 767px*/
+
+@media screen and (max-width: 767px) {
+    .header {
+        margin-left: 16px;
+        margin-right: 16px;
+        padding-top: 16px;
+    }
+}

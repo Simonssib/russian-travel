@@ -1,0 +1,80 @@
+.photo-grid {
+    max-width: 1184px;
+    display: grid;
+    grid-template-columns: repeat(4, calc((100% - 48px) / 4));
+    grid-template-rows: repeat(3, 213px);
+    gap: 16px;
+    margin: 92px 48px 0 48px;
+}
+
+
+/*Для экранов от 1025px до 1279px*/
+
+@media screen and (max-width: 1279px) {
+    .photo-grid {
+        grid-template-columns: repeat(3, minmax(300px, calc((100% - 28px) / 3)));
+        grid-template-rows: repeat(4, minmax(225px, 1fr));
+        gap: 14px;
+    }
+}
+
+
+/*Для экрана 1024 (контрольная точка)*/
+
+@media screen and (max-width: 1024px) {
+    .photo-grid {
+        grid-template-columns: repeat(3, calc((100% - 28px) / 3));
+        grid-template-rows: repeat(4, 225px);
+        gap: 14px;
+    }
+}
+
+
+/*Для экранов от 769px до 1023px*/
+
+@media screen and (max-width: 1023px) {
+    .photo-grid {
+        grid-template-columns: repeat(2, minmax(352px, calc((100% - 16px) / 2)));
+        grid-template-rows: repeat(6, minmax(216px, 1fr));
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+}
+
+
+/*Для экрана 768 (контрольная точка)*/
+
+@media screen and (max-width: 768px) {
+    .photo-grid {
+        grid-template-columns: repeat(2, minmax(288px, 352px));
+        grid-template-rows: repeat(6, 264px);
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+}
+
+
+/*Для экранов от 321px до 767px*/
+
+@media screen and (max-width: 767px) {
+    .photo-grid {
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(12, minmax(216px, 1fr));
+        margin-left: 16px;
+        margin-right: 16px;
+        margin-top: 64px;
+    }
+}
+
+
+/*Для экрана 320px(контрольная точка)*/
+
+@media screen and (max-width: 320px) {
+    .photo-grid {
+        grid-template-columns: 288px;
+        grid-template-rows: repeat(12, 216px);
+        margin-left: 16px;
+        margin-right: 16px;
+        margin-top: 64px;
+    }
+}

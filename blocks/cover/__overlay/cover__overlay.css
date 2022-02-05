@@ -1,0 +1,47 @@
+    .cover__overlay {
+        background-image: url(../../../images/elektrichki.png);
+        background-size: cover;
+        position: relative;
+        height: 740px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        background-position: center;
+        color: white;
+    }
+    
+    .cover__overlay::before {
+        content: "";
+        height: 100%;
+        position: absolute;
+        width: 100%;
+        background-color: #2A2C2F;
+        opacity: 0.3;
+        z-index: 1;
+        transition: 1s;
+    }
+    
+    .cover__overlay:hover::before {
+        opacity: 0.8;
+        transition: 1s;
+    }
+    
+    @media screen and (max-width: 1024px) {
+        .cover__overlay {
+            max-height: 640px;
+        }
+    }
+    
+    @media screen and (max-width: 768px) {
+        .cover__overlay {
+            max-height: 480px;
+        }
+    }
+    
+    @media screen and (max-width: 425px) {
+        .cover__overlay {
+            max-height: 200px;
+        }
+    }
