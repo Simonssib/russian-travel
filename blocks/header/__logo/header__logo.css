@@ -3,6 +3,9 @@
     height: 52px;
 }
 
+
+/*от моб. устройств до вертикального положения планшета*/
+
 @media screen and (max-width: 767px) {
     .header__logo {
         width: 142px;

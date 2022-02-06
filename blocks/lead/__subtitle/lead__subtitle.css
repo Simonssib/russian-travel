@@ -8,6 +8,10 @@
     margin: 32px auto 0 auto;
 }
 
+
+/*Для экранов от 320px до 767px(контрольная точка)
+от мобильных устройств до вертикального положения планшета*/
+
 @media screen and (max-width: 767px) {
     .lead__subtitle {
         font-size: 16px;

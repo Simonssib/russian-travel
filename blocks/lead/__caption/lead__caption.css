@@ -9,17 +9,29 @@
     margin: 8px auto 0 0;
 }
 
+
+/*Для экранов от 769px до 1024px(контрольная точка)
+от вертикального до горизонтального положения планшета*/
+
 @media screen and (max-width: 1024px) {
     .lead__caption {
         margin-left: 24px;
     }
 }
 
+
+/*Для экранов от 426px до 768px(контрольная точка)
+от большого смартфона до вертикального положения планшета*/
+
 @media screen and (max-width: 768px) {
     .lead__caption {
         margin-left: 24px;
     }
 }
+
+
+/*Для экранов от 320px(контрольная точка) до 425px
+мобильные устройства*/
 
 @media screen and (max-width: 425px) {
     .lead__caption {

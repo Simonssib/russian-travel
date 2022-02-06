@@ -9,6 +9,10 @@
     text-align: center;
 }
 
+
+/*Для экранов от 320px до 767px(контрольная точка)
+от мобильных устройств до вертикального положения планшета*/
+
 @media screen and (max-width: 767px) {
     .lead__title {
         font-size: 40px;

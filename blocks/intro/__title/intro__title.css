@@ -7,11 +7,19 @@
     margin: 0;
 }
 
+
+/*Для экранов от 426px(контрольная точка) до 768px
+от большого смартфона до вертикального положения планшета*/
+
 @media screen and (max-width: 768px) {
     .intro__title {
         max-width: 720px;
     }
 }
+
+
+/*Для экранов от 321px до 425px(контрольная точка)
+мобильные устройства*/
 
 @media screen and (max-width: 425px) {
     .intro__title {
@@ -20,6 +28,10 @@
         line-height: 35px;
     }
 }
+
+
+/*Для экрана от 320px(контрольная точка)
+мобильные устройства*/
 
 @media screen and (max-width: 320px) {
     .intro__title {

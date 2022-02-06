@@ -17,6 +17,9 @@
     opacity: 50%;
 }
 
+
+/*от вертикального до горизонтального положения планшета*/
+
 @media screen and (max-width: 767px) {
     .header__lang-link {
         font-size: 18px;
