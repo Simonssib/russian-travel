@@ -27,30 +27,10 @@
 }
 
 
-/*Для экранов от 768px(контрольная точка)*/
-
-@media screen and (max-width: 768px) {
-    .place__image {
-        width: 340px;
-        height: 340px;
-    }
-}
-
-
-/*Для экранов от 321px до 767px
+/*Для экранов от 320px до 767px
 от большого смартфона до вертикального положения планшета*/
 
 @media screen and (max-width: 767px) {
-    .place__image {
-        width: 320px;
-        height: 320px;
-    }
-}
-
-
-/*Для экрана 320px(контрольная точка)*/
-
-@media screen and (max-width: 320px) {
     .place__image {
         width: 320px;
         height: 320px;

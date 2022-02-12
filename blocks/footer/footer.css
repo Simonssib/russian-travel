@@ -19,7 +19,6 @@
         margin-right: 24px;
         margin-left: 16px;
         margin-top: 64px;
-        display: flex;
         flex-direction: column;
         align-content: flex-start;
     }

@@ -28,7 +28,6 @@
 @media screen and (max-width: 1023px) {
     .place__paragraph {
         max-width: 100%;
-        margin-bottom: 25px;
         font-size: 16px;
         line-height: 26.08px;
     }
@@ -42,6 +41,5 @@
     .place__paragraph {
         margin-left: 16px;
         margin-right: 16px;
-        line-height: 26.08px;
     }
 }

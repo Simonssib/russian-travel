@@ -26,7 +26,6 @@
     .photo-grid {
         grid-template-columns: repeat(3, calc((100% - 28px) / 3));
         grid-template-rows: repeat(4, 225px);
-        gap: 14px;
     }
 }
 
@@ -51,8 +50,6 @@
     .photo-grid {
         grid-template-columns: repeat(2, minmax(288px, 352px));
         grid-template-rows: repeat(6, 264px);
-        margin-left: 24px;
-        margin-right: 24px;
     }
 }
 
@@ -64,9 +61,7 @@
     .photo-grid {
         grid-template-columns: 100%;
         grid-template-rows: repeat(12, minmax(216px, 1fr));
-        margin-left: 16px;
-        margin-right: 16px;
-        margin-top: 64px;
+        margin: 64px 16px 0 16px;
     }
 }
 
@@ -78,8 +73,5 @@
     .photo-grid {
         grid-template-columns: 288px;
         grid-template-rows: repeat(12, 216px);
-        margin-left: 16px;
-        margin-right: 16px;
-        margin-top: 64px;
     }
 }
